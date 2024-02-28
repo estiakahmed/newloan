@@ -1,0 +1,1417 @@
+/*1025-1365*/
+@media only screen and (min-width: 1025px) and (max-width: 1365px) {
+    /*topbar start*/
+    .textbox p {
+        text-align: left;
+    }
+    .textbox {
+        display: block;
+    }
+    p.finishp {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    p.startp {
+        padding: 0;
+        padding-top: 13px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    /*top bar end*/
+}
+/*992-1024*/
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    /*topbar start*/
+    .textbox p {
+        text-align: left;
+    }
+    .textbox {
+        display: block;
+    }
+    p.finishp {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 8px;
+    }
+    p.startp {
+        padding: 0;
+        padding-top: 6px;
+        padding-bottom: 2px;
+    }
+
+    /*top bar end*/
+    /*hero section start*/
+
+    /*form area start*/
+    .tittleandoutput h2 {
+        width: 57%;
+    }
+    output {
+        padding-left: 73px;
+    }
+    li.m-2 {
+        width: 14%;
+        padding: 0;
+    }
+    .m-2 {
+        margin: 13px !important;
+    }
+
+    /*form area end*/
+
+    /*hero section end*/
+
+    /*how it works start*/
+
+    .workHbox {
+        height: 445px;
+    }
+
+    /*how it works end*/
+}
+
+/*768-991*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*topbar start*/
+    .textbox p {
+        text-align: left;
+    }
+    .textbox {
+        display: block;
+    }
+    p.finishp {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+    p.startp {
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+
+    /*top bar end*/
+
+    /*nav bar start*/
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.navdiv {
+        padding: 13px 40px;
+    }
+    /*nav bar end*/
+    /*hero section start*/
+
+    .row.herorow {
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.formcolum {
+        position: absolute;
+        top: 600px;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.txtcolum {
+        position: absolute;
+        top: 43px;
+    }
+    section.herosection {
+        height: 730px;
+    }
+    .col-xs-12.col-sm-6.heroclm {
+        width: 100%;
+    }
+    .mobileimg.img-fluid img {
+        width: 28%;
+        float: right;
+        margin-top: -88px;
+        text-align: center;
+    }
+    .formbox {
+        width: 100%;
+    }
+    output {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin: 30px 0;
+        width: 50%;
+        padding-left: 248px;
+    }
+    button.btn.btn-quote.my-4.py-2.px-5 {
+        margin-top: 80px !important;
+    }
+    section.herosection {
+        height: 730px;
+    }
+
+    /*hero section end*/
+    /*step section start*/
+    section.howitworks {
+        padding-top: 615px;
+    }
+
+    /*step section end*/
+
+    /*how it works start*/
+
+    .workHbox {
+        height: 400px;
+        margin: 2px;
+    }
+    p.wrk_description {
+        padding: 0px 14px;
+        font-size: 15px;
+    }
+
+    /*how it works end*/
+
+    /*faq start*/
+
+    button.accordion.accorbtn {
+        text-align: left;
+    }
+    .faqtittle h1 {
+        font-size: 37px;
+    }
+
+    /*faq end*/
+
+    /*footer section start*/
+    .footerlogo img {
+        width: 14%;
+    }
+
+    /*footer section ened*/
+
+    /*==========================terms and condition page start*/
+
+    .logo_sec_box.tandconpage img {
+        width: 25%;
+    }
+
+    /*==========================terms and condition page end*/
+}
+
+/*576-767*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /*topbar start*/
+    .textbox p {
+        text-align: left;
+    }
+    .textbox {
+        display: block;
+    }
+    p.finishp {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 6px;
+    }
+    p.startp {
+        padding: 0;
+        padding-top: 6px;
+        padding-bottom: 2px;
+        text-align: center;
+    }
+    span.hiddenp {
+        display: none;
+    }
+    /*top bar end*/
+    /*nav bar start*/
+    button.btn.applybutton {
+        display: none;
+    }
+    /*nav bar end*/
+    /*hero section start*/
+
+    .col-xs-12.col-sm-6.heroclm {
+        width: 100%;
+    }
+
+    .mobileimg.img-fluid img {
+        width: 28%;
+        float: right;
+        margin-top: -88px;
+        text-align: center;
+    }
+    .formbox {
+        width: 100%;
+    }
+    output {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin: 30px 0;
+        width: 50%;
+        padding-left: 165px;
+    }
+    button.btn.btn-quote.my-4.py-2.px-5 {
+    }
+    li.m-2 {
+        width: 10%;
+        padding: 0;
+    }
+    label.text-left.mb-2.h5.font-weight-bold.f-25.w-100 {
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: 16px !important;
+    }
+    .row.herorow {
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.formcolum {
+        position: absolute;
+        top: 448px;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.txtcolum {
+        position: absolute;
+        top: 43px;
+    }
+    section.herosection {
+        height: 886px;
+    }
+    .mobileimg.img-fluid {
+        display: none;
+    }
+    /*hero section end*/
+
+    /*step section start*/
+    section.howitworks {
+        padding-top: 250px;
+    }
+
+    /*step section end*/
+    /*how it works start*/
+
+    .workHbox {
+        height: 392px;
+        margin: 2px;
+    }
+    p.wrk_description {
+        padding: 0px 14px;
+        font-size: 15px;
+    }
+    .row.how_workrow {
+        display: block;
+    }
+    .col-xs-12.col-sm-4.hworkcol {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .how_work_tittle h1 {
+        font-size: 50px;
+    }
+    .how_work_tittle p {
+        font-size: 24px;
+    }
+
+    /*how it works end*/
+
+    /*faq start*/
+
+    button.accordion.accorbtn {
+        text-align: left;
+    }
+    .faqtittle h1 {
+        font-size: 37px;
+    }
+    .accordion-item.faqitem {
+        width: 92%;
+    }
+    .accordion-item {
+        width: 92%;
+    }
+
+    button.accordion.accorbtn {
+        padding: 26px 25px;
+    }
+    .accordion-body {
+        padding: 18px 25px;
+    }
+
+    /*faq end*/
+
+    /*footer section start*/
+    .footerlogo img {
+        width: 21%;
+    }
+
+    /*footer section ened*/
+
+    /*======================apply page responsive code*/
+
+    .logo_sec_box img {
+        width: 19%;
+    }
+
+    .text_sec_box h2 {
+        font-size: 34px;
+        font-weight: 700;
+        color: #42bd49;
+    }
+
+    .text_sec_box h1 {
+        font-size: 29px;
+        font-weight: 700;
+        color: #9f2042;
+    }
+    .text_sec_box h3 {
+        color: #9f2042;
+        font-size: 21px;
+        font-weight: 500;
+    }
+
+    /*=======================apply page code end*/
+
+    /*==========================terms and condition page start*/
+
+    .logo_sec_box.tandconpage img {
+        width: 36%;
+    }
+
+    /*==========================terms and condition page end*/
+}
+
+/*480-575*/
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    /*topbar start*/
+    .textbox p {
+        text-align: left;
+    }
+    .textbox {
+        display: block;
+    }
+    p.finishp {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 4px;
+        font-size: 13px;
+    }
+    p.startp {
+        padding: 0;
+        padding-top: 4px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 11px;
+    }
+    span.hiddenp {
+        display: none;
+    }
+    /*top bar end*/
+
+    /*nav bar start*/
+    button.btn.applybutton {
+        display: none;
+    }
+    /*nav bar end*/
+    /*hero section start*/
+
+    .col-xs-12.col-sm-6.heroclm {
+        width: 100%;
+    }
+
+    .mobileimg.img-fluid img {
+        width: 37%;
+        margin-top: 21px;
+        text-align: center;
+        float: none;
+    }
+    .formbox {
+        width: 100%;
+    }
+    output {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin: 30px 0;
+        width: 50%;
+        padding-left: 140px;
+    }
+    button.btn.btn-quote.my-4.py-2.px-5 {
+        margin-top: 44px !important;
+    }
+    li.m-2 {
+        width: 9%;
+        padding: 0;
+    }
+    label.text-left.mb-2.h5.font-weight-bold.f-25.w-100 {
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: 16px !important;
+    }
+    .herotextbox h1 {
+        color: white;
+        font-size: 31px;
+        font-weight: 700;
+    }
+    .herotextbox h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+    }
+    .mobileimg.img-fluid {
+        text-align: center;
+    }
+    .radio-label {
+        box-shadow: 0 0 12px 0 rgb(162 67 93 / 32%);
+        background: #fff;
+        color: #3c1308;
+        height: 45px;
+        width: 43px;
+        margin: 0;
+        cursor: pointer;
+        position: relative;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .row.herorow {
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.formcolum {
+        position: absolute;
+        top: 265px;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.txtcolum {
+        position: absolute;
+        top: 43px;
+    }
+    section.herosection {
+        height: 680px;
+    }
+    .mobileimg.img-fluid {
+        display: none;
+    }
+    /*hero section end*/
+
+    /*step section start*/
+    section.howitworks {
+        padding-top: 308px;
+    }
+    .howitworkstittle h1 {
+        font-size: 31px;
+    }
+    p.subtittle {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 300;
+        color: #54c35a;
+    }
+
+    /*step section end*/
+
+    /*how it works start*/
+
+    .workHbox {
+        height: 392px;
+        margin: 2px;
+    }
+    p.wrk_description {
+        padding: 0px 14px;
+        font-size: 15px;
+    }
+    .row.how_workrow {
+        display: block;
+    }
+    .col-xs-12.col-sm-4.hworkcol {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .how_work_tittle h1 {
+        font-size: 43px;
+    }
+    .how_work_tittle p {
+        font-size: 24px;
+    }
+    .workHbox img {
+        width: 32%;
+        padding-bottom: 16px;
+        padding-top: 26px;
+    }
+
+    /*how it works end*/
+
+    /*faq start*/
+
+    button.accordion.accorbtn {
+        text-align: left;
+    }
+    .faqtittle h1 {
+        font-size: 31px;
+    }
+    .accordion-item.faqitem {
+        width: 92%;
+    }
+    .accordion-item {
+        width: 92%;
+    }
+
+    button.accordion.accorbtn {
+        padding: 26px 25px;
+    }
+    .accordion-body {
+        padding: 18px 25px;
+    }
+    button.accordion.accorbtn {
+        font-size: 19px;
+    }
+
+    /*faq end*/
+
+    /*footer section start*/
+    .footerlogo img {
+        width: 21%;
+    }
+
+    /*footer section ened*/
+
+    /*======================apply page responsive code*/
+
+    .logo_sec_box img {
+        width: 22%;
+    }
+
+    .text_sec_box h2 {
+        font-size: 26px;
+        font-weight: 700;
+        color: #42bd49;
+    }
+
+    .text_sec_box h1 {
+        font-size: 23px;
+        font-weight: 700;
+        color: #9f2042;
+    }
+    .text_sec_box h3 {
+        color: #9f2042;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    /*=======================apply page code end*/
+
+    /*==========================terms and condition page start*/
+
+    .logo_sec_box.tandconpage img {
+        width: 36%;
+    }
+
+    /*==========================terms and condition page end*/
+}
+/*425-479*/
+@media only screen and (min-width: 425px) and (max-width: 479px) {
+    /*topbar start*/
+    .textbox p {
+        text-align: left;
+    }
+    .textbox {
+        display: block;
+    }
+    p.finishp {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 3px;
+        font-size: 13px;
+    }
+    p.startp {
+        padding: 0;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 11px;
+    }
+    span.hiddenp {
+        display: none;
+    }
+    /*top bar end*/
+
+    /*nav bar start*/
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.navdiv {
+        padding: 13px 15px;
+    }
+    button.btn.applybutton {
+        display: none;
+    }
+
+    /*nav bar end*/
+    /*hero section start*/
+
+    .col-xs-12.col-sm-6.heroclm {
+        width: 100%;
+    }
+
+    .mobileimg.img-fluid img {
+        width: 37%;
+        margin-top: 21px;
+        text-align: center;
+        float: none;
+    }
+    .formbox {
+        width: 100%;
+    }
+    output {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin: 30px 0;
+        width: 50%;
+        padding-left: 115px;
+    }
+    button.btn.btn-quote.my-4.py-2.px-5 {
+        margin-top: 44px !important;
+    }
+    li.m-2 {
+        width: 9%;
+        padding: 0;
+    }
+    label.text-left.mb-2.h5.font-weight-bold.f-25.w-100 {
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: 16px !important;
+    }
+    .herotextbox h1 {
+        color: white;
+        font-size: 31px;
+        font-weight: 700;
+    }
+    .herotextbox h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+    }
+    .mobileimg.img-fluid {
+        text-align: center;
+    }
+    .radio-label {
+        box-shadow: 0 0 12px 0 rgb(162 67 93 / 32%);
+        background: #fff;
+        color: #3c1308;
+        height: 45px;
+        width: 43px;
+        margin: 0;
+        cursor: pointer;
+        position: relative;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .formp p {
+        color: #212529;
+        font-size: 11px;
+        font-weight: 400;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .row.herorow {
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.formcolum {
+        position: absolute;
+        top: 268px;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.txtcolum {
+        position: absolute;
+        top: 43px;
+    }
+    section.herosection {
+        height: 647px;
+    }
+    .mobileimg.img-fluid {
+        display: none;
+    }
+
+    /*hero section end*/
+    /*step section start*/
+    section.howitworks {
+        padding-top: 390px;
+    }
+    .howitworkstittle h1 {
+        font-size: 31px;
+    }
+    p.subtittle {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 300;
+        color: #54c35a;
+    }
+    .worksbox img {
+        width: 25%;
+    }
+
+    /*step section end*/
+
+    /*how it works start*/
+
+    .workHbox {
+        height: 392px;
+        margin: 2px;
+    }
+    p.wrk_description {
+        padding: 0px 14px;
+        font-size: 15px;
+    }
+    .row.how_workrow {
+        display: block;
+    }
+    .col-xs-12.col-sm-4.hworkcol {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .how_work_tittle h1 {
+        font-size: 38px;
+    }
+    .how_work_tittle p {
+        font-size: 24px;
+    }
+    .workHbox img {
+        width: 32%;
+        padding-bottom: 37px;
+        padding-top: 26px;
+    }
+
+    /*how it works end*/
+
+    /*faq start*/
+
+    button.accordion.accorbtn {
+        text-align: left;
+    }
+    .faqtittle h1 {
+        font-size: 31px;
+    }
+    .accordion-item.faqitem {
+        width: 96%;
+    }
+    .accordion-item {
+        width: 96%;
+    }
+
+    button.accordion.accorbtn {
+        padding: 26px 25px;
+    }
+    .accordion-body {
+        padding: 18px 25px;
+    }
+    button.accordion.accorbtn {
+        font-size: 19px;
+    }
+
+    /*faq end*/
+
+    /*footer section start*/
+    .footerlogo img {
+        width: 21%;
+    }
+
+    /*footer section ened*/
+
+    /*======================apply page responsive code*/
+
+    .logo_sec_box img {
+        width: 24%;
+    }
+
+    .text_sec_box h2 {
+        font-size: 23px;
+        font-weight: 700;
+        color: #42bd49;
+    }
+
+    .text_sec_box h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #9f2042;
+    }
+    .text_sec_box h3 {
+        color: #9f2042;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    /*=======================apply page code end*/
+
+    /*==========================terms and condition page start*/
+
+    .logo_sec_box.tandconpage img {
+        width: 40%;
+    }
+
+    /*==========================terms and condition page end*/
+}
+
+/*375-424*/
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    /*topbar start*/
+    .textbox p {
+        text-align: left;
+    }
+    .textbox {
+        display: block;
+    }
+    p.finishp {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 3px;
+        font-size: 13px;
+    }
+    p.startp {
+        padding: 0;
+        padding-top: 3px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 11px;
+    }
+    span.hiddenp {
+        display: none;
+    }
+    /*top bar end*/
+    /*nav bar start*/
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.navdiv {
+        padding: 13px 15px;
+    }
+    button.btn.applybutton {
+        display: none;
+    }
+
+    /*nav bar end*/
+    /*hero section start*/
+
+    .col-xs-12.col-sm-6.heroclm {
+        width: 100%;
+    }
+
+    .mobileimg.img-fluid img {
+        width: 37%;
+        margin-top: 21px;
+        text-align: center;
+        float: none;
+    }
+    .formbox {
+        width: 100%;
+    }
+    output {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        margin: 30px 0;
+        width: 45%;
+        padding-left: 87px;
+    }
+    button.btn.btn-quote.my-4.py-2.px-5 {
+        margin-top: 44px !important;
+    }
+    li.m-2 {
+        width: 11%;
+        padding: 0;
+    }
+    label.text-left.mb-2.h5.font-weight-bold.f-25.w-100 {
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: 16px !important;
+    }
+    .herotextbox h1 {
+        color: white;
+        font-size: 31px;
+        font-weight: 700;
+    }
+    .herotextbox h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+    }
+    .mobileimg.img-fluid {
+        text-align: center;
+    }
+    .radio-label {
+        box-shadow: 0 0 12px 0 rgb(162 67 93 / 32%);
+        background: #fff;
+        color: #3c1308;
+        height: 45px;
+        width: 43px;
+        margin: 0;
+        cursor: pointer;
+        position: relative;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .formdiv h1 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        color: #9f2042;
+        margin-bottom: 1.75rem;
+    }
+    .tittleandoutput h2 {
+        font-size: 18px;
+        font-weight: 700;
+        width: 53%;
+        color: #9f2042;
+    }
+    .allp p {
+        color: white;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 2px;
+    }
+    .m-2 {
+        margin: 13px !important;
+    }
+    .formp p {
+        color: #212529;
+        font-size: 11px;
+        font-weight: 400;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .row.herorow {
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.formcolum {
+        position: absolute;
+        top: 256px;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.txtcolum {
+        position: absolute;
+        top: 43px;
+    }
+    section.herosection {
+        height: 567px;
+    }
+    .mobileimg.img-fluid {
+        display: none;
+    }
+
+    /*hero section end*/
+
+    /*step section start*/
+    section.howitworks {
+        padding-top: 470px;
+    }
+    .howitworkstittle h1 {
+        font-size: 31px;
+    }
+    p.subtittle {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 300;
+        color: #54c35a;
+    }
+    .worksbox img {
+        width: 25%;
+    }
+
+    /*step section end*/
+    /*how it works start*/
+
+    .workHbox {
+        height: 392px;
+        margin: 2px;
+    }
+    p.wrk_description {
+        padding: 0px 14px;
+        font-size: 15px;
+    }
+    .row.how_workrow {
+        display: block;
+    }
+    .col-xs-12.col-sm-4.hworkcol {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .how_work_tittle h1 {
+        font-size: 35px;
+    }
+    .how_work_tittle p {
+        font-size: 24px;
+    }
+    .workHbox img {
+        width: 32%;
+        padding-bottom: 37px;
+        padding-top: 26px;
+    }
+
+    /*how it works end*/
+
+    /*faq start*/
+
+    button.accordion.accorbtn {
+        text-align: left;
+    }
+    .faqtittle h1 {
+        font-size: 31px;
+    }
+    .accordion-item.faqitem {
+        width: 96%;
+    }
+    .accordion-item {
+        width: 96%;
+    }
+
+    button.accordion.accorbtn {
+        padding: 26px 25px;
+    }
+    .accordion-body {
+        padding: 18px 25px;
+    }
+    button.accordion.accorbtn {
+        font-size: 19px;
+    }
+
+    /*faq end*/
+
+    /*footer section start*/
+    .footerlogo img {
+        width: 25%;
+    }
+
+    /*footer section ened*/
+
+    /*======================apply page responsive code*/
+
+    .logo_sec_box img {
+        width: 30%;
+    }
+
+    .text_sec_box h2 {
+        font-size: 23px;
+        font-weight: 700;
+        color: #42bd49;
+    }
+
+    .text_sec_box h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #9f2042;
+    }
+    .text_sec_box h3 {
+        color: #9f2042;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /*=======================apply page code end*/
+    /*==========================terms and condition page start*/
+
+    .logo_sec_box.tandconpage img {
+        width: 54%;
+    }
+
+    /*==========================terms and condition page end*/
+
+    /*========================privacy policy page start*/
+
+    .conditionbox {
+        font-size: 12.5px;
+        font-weight: 500;
+    }
+
+    /*========================privacy policy page start*/
+}
+
+/*320-374*/
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    /*topbar start*/
+    .textbox p {
+        text-align: left;
+    }
+    .textbox {
+        display: block;
+    }
+    p.finishp {
+        text-align: center;
+        padding: 0;
+        padding-bottom: 1px;
+        font-size: 12px;
+    }
+    p.startp {
+        padding: 0;
+        padding-top: 1px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 11px;
+    }
+    span.hiddenp {
+        display: none;
+    }
+    /*top bar end*/
+
+    /*nav bar start*/
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light.navdiv {
+        padding: 13px 6px;
+    }
+    button.btn.applybutton {
+        display: none;
+    }
+
+    /*nav bar end*/
+    /*hero section start*/
+
+    .col-xs-12.col-sm-6.heroclm {
+        width: 100%;
+    }
+
+    .mobileimg.img-fluid img {
+        width: 37%;
+        margin-top: 21px;
+        text-align: center;
+        float: none;
+    }
+    .formbox {
+        width: 100%;
+    }
+    output {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+        margin: 30px 0;
+        width: 32%;
+        padding-left: 38px;
+    }
+    button.btn.btn-quote.my-4.py-2.px-5 {
+        margin-top: 44px !important;
+    }
+    li.m-2 {
+        width: 13%;
+        padding: 0;
+    }
+    label.text-left.mb-2.h5.font-weight-bold.f-25.w-100 {
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: 16px !important;
+    }
+    .herotextbox h1 {
+        color: white;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .herotextbox h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+    }
+    .mobileimg.img-fluid {
+        text-align: center;
+    }
+    .radio-label {
+        box-shadow: 0 0 12px 0 rgb(162 67 93 / 32%);
+        background: #fff;
+        color: #3c1308;
+        height: 45px;
+        width: 43px;
+        margin: 0;
+        cursor: pointer;
+        position: relative;
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .formdiv h1 {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        color: #9f2042;
+        margin-bottom: 1.75rem;
+    }
+    .tittleandoutput h2 {
+        font-size: 18px;
+        font-weight: 700;
+        width: 70%;
+        color: #9f2042;
+    }
+    .allp p {
+        color: white;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 2px;
+    }
+    button.btn.btn-quote.my-4.py-2.px-5 {
+        font-size: 21px;
+    }
+    .m-2 {
+        margin: 13px !important;
+    }
+    .formp p {
+        color: #212529;
+        font-size: 11px;
+        font-weight: 400;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .row.herorow {
+        padding-top: 50px;
+        display: block;
+        position: relative;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.formcolum {
+        position: absolute;
+        top: 278px;
+    }
+
+    .col-xs-12.col-sm-6.heroclm.txtcolum {
+        position: absolute;
+        top: 43px;
+    }
+    section.herosection {
+        height: 567px;
+    }
+
+    .mobileimg.img-fluid {
+        display: none;
+    }
+    /*hero section end*/
+    /*step section start*/
+    section.howitworks {
+        padding-top: 543px;
+    }
+    .howitworkstittle h1 {
+        font-size: 31px;
+    }
+    p.subtittle {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 300;
+        color: #54c35a;
+    }
+    .worksbox img {
+        width: 25%;
+    }
+
+    /*step section end*/
+
+    /*how it works start*/
+
+    .workHbox {
+        height: 424px;
+        margin: 2px;
+    }
+    p.wrk_description {
+        padding: 0px 14px;
+        font-size: 15px;
+    }
+    .row.how_workrow {
+        display: block;
+    }
+    .col-xs-12.col-sm-4.hworkcol {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+    .how_work_tittle h1 {
+        font-size: 27px;
+    }
+    .how_work_tittle p {
+        font-size: 24px;
+    }
+    .workHbox img {
+        width: 32%;
+        padding-bottom: 37px;
+        padding-top: 26px;
+    }
+
+    /*how it works end*/
+
+    /*faq start*/
+
+    button.accordion.accorbtn {
+        text-align: left;
+    }
+    .faqtittle h1 {
+        font-size: 31px;
+    }
+    .accordion-item.faqitem {
+        width: 96%;
+    }
+    .accordion-item {
+        width: 96%;
+    }
+
+    button.accordion.accorbtn {
+        padding: 26px 25px;
+    }
+    .accordion-body {
+        padding: 18px 25px;
+    }
+    button.accordion.accorbtn {
+        font-size: 17px;
+    }
+
+    /*faq end*/
+
+    /*footer section start*/
+    .footerlogo img {
+        width: 30%;
+    }
+
+    /*footer section ened*/
+
+    /*======================apply page responsive code*/
+
+    .logo_sec_box img {
+        width: 30%;
+    }
+
+    .text_sec_box h2 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #42bd49;
+    }
+
+    .text_sec_box h1 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #9f2042;
+    }
+    .text_sec_box h3 {
+        color: #9f2042;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    /*=======================apply page code end*/
+
+    /*==========================terms and condition page start*/
+
+    .logo_sec_box.tandconpage img {
+        width: 54%;
+    }
+    .conditionbox h1 {
+        font-size: 22px;
+    }
+
+    /*==========================terms and condition page end*/
+
+    /*========================privacy policy page start*/
+
+    .conditionbox {
+        font-size: 10.5px;
+        font-weight: 500;
+    }
+
+    /*========================privacy policy page start*/
+}

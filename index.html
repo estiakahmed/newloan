@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- rangeslidecss -->
+        <link rel="stylesheet" type="text/css" href="css/rangeslide.css" />
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css.map" />
+
+        <!-- google font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+        <!-- fontawesome link -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+        <!-- custom css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- responsive css -->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <title>Loans</title>
+        <link rel="shortcut icon" href="img/fav.png" />
+        <script> (function(document, window) {
+ var script = document.createElement("script");
+ script.type = "text/javascript";
+ script.src = "https://trk-consulatu.com/scripts/push/script/w6g0kv9e9m?url=" + encodeURI(self.location.hostname) + "&alturl=" + encodeURI(self.location.pathname);
+ script.onload = function() {
+ push_init();
+ push_subscribe();
+ };
+document.getElementsByTagName("head")[0].appendChild(script);
+})(document, window); </script>
+    </head>
+    <body>
+        <!-- topbar start -->
+        <section class="topbar" id="top_bar">
+            <div class="container-fluid tobbardiv">
+                <div class="row topbarrow">
+                    <div class="col-xs-12 textdiv">
+                        <div class="textbox">
+                            <p class="startp">
+                                Warning: Late repayment can cause you serious money problems. For help, go to<a href="https://www.moneyhelper.org.uk/">moneyhelper.org.uk</a> |
+                                <span class="hiddenp">  Simply-loans.co.uk is a broker, not a lender, and does not make credit decisions.
+
+                                </span>
+                            </p>
+                            <p class="finishp">We may receive a commission from the lender.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- topbar end -->
+
+        <!-- nav bar start -->
+
+        <section class="navigationsec">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navdiv">
+                <div class="container">
+                    <a class="navbar-brand" href="index"><img class="logo" src="img/logo.png" alt="" /> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item liitem">
+                                <a class="nav-link" aria-current="page" href="#hero_sec">Home</a>
+                            </li>
+                            <li class="nav-item liitem">
+                                <a class="nav-link" href="#how_it_works">How it Works</a>
+                            </li>
+
+                            <li class="nav-item liitem">
+                                <a class="nav-link" href="#faq_sec_menu">FAQ's</a>
+                            </li>
+                            <li class="nav-item liitem">
+                                <a class="nav-link" href="lookup">Lookup</a>
+                            </li>
+                        </ul>
+                        <div class="homebutton">
+                            
+                        </div>
+                        <a href="#get_quote">
+                            <button class="btn applybutton" type="submit">Apply Now</button>
+                        </a>
+
+                        
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- nav bar end -->
+
+        <!-- hero section start -->
+        <section class="herosection bg" id="hero_sec">
+            <div class="container">
+                <div class="row herorow">
+                    <div class="col-xs-12 col-sm-6 heroclm formcolum">
+                        <div class="formbox" id="get_quote">
+                            <div class="formdiv">
+                                <h1>It’s Simple - Apply Now</h1>
+
+                                <div class="barandform">
+                                    <form action="apply" method="get" accept-charset="utf-8">
+                                        <div class="tittleandoutput">
+                                            <h2>I Want To Borrow</h2>
+                                            <output></output>
+                                        </div>
+
+                                        <div class="inputdiv">
+                                            <input type="range" class="slider" step="100" value="300" min="100" max="1500" data-rangeslider />
+                                        </div>
+
+                                        <div class="text-center form-group mt-3">
+                                            <label class="text-left mb-2 h5 font-weight-bold f-25 w-100">Over How Many Months?</label>
+                                            <ul class="list-unstyled d-flex align-items-center row m-0 justify-content-center">
+                                                <li class="m-2">
+                                                    <input
+                                                        type="radio"
+                                                        id="duration"
+                                                        name="loan_duration_months"
+                                                        value="3"
+                                                        class="radiobtn error-at-bottom"
+                                                        data-parsley-required="true"
+                                                        data-parsley-required-message="Please Select Months"
+                                                        data-parsley-multiple="duration"
+                                                    />
+                                                    <label for="duration" class="radio-label d-flex align-items-center justify-content-center text-gradient">3 </label>
+                                                </li>
+                                                <li class="m-2">
+                                                    <input
+                                                        type="radio"
+                                                        id="duration6"
+                                                        name="loan_duration_months"
+                                                        value="6"
+                                                        class="radiobtn error-at-bottom"
+                                                        data-parsley-required="true"
+                                                        data-parsley-required-message="Please Select Months"
+                                                        data-parsley-multiple="duration"
+                                                    />
+                                                    <label for="duration6" class="radio-label d-flex align-items-center justify-content-center text-gradient">6 </label>
+                                                </li>
+                                                <li class="m-2">
+                                                    <input
+                                                        type="radio"
+                                                        id="duration12"
+                                                        name="loan_duration_months"
+                                                        value="12"
+                                                        class="radiobtn error-at-bottom"
+                                                        data-parsley-required="true"
+                                                        data-parsley-required-message="Please Select Months"
+                                                        data-parsley-multiple="duration"
+                                                    />
+                                                    <label for="duration12" class="radio-label d-flex align-items-center justify-content-center text-gradient">12 </label>
+                                                </li>
+                                                <li class="m-2">
+                                                    <input
+                                                        type="radio"
+                                                        id="duration15"
+                                                        name="loan_duration_months"
+                                                        value="15"
+                                                        class="radiobtn error-at-bottom"
+                                                        data-parsley-required="true"
+                                                        data-parsley-required-message="Please Select Months"
+                                                        data-parsley-multiple="duration"
+                                                    />
+                                                    <label for="duration15" class="radio-label d-flex align-items-center justify-content-center text-gradient">15 </label>
+                                                </li>
+                                                <li class="m-2">
+                                                    <input
+                                                        type="radio"
+                                                        id="duration18"
+                                                        name="loan_duration_months"
+                                                        value="18"
+                                                        class="radiobtn error-at-bottom"
+                                                        data-parsley-required="true"
+                                                        data-parsley-required-message="Please Select Months"
+                                                        data-parsley-multiple="duration"
+                                                    />
+                                                    <label for="duration18" class="radio-label d-flex align-items-center justify-content-center text-gradient">18 </label>
+                                                </li>
+                                                <li class="m-2">
+                                                    <input
+                                                        type="radio"
+                                                        id="duration24"
+                                                        name="loan_duration_months"
+                                                        value="24"
+                                                        class="radiobtn error-at-bottom"
+                                                        data-parsley-required="true"
+                                                        data-parsley-required-message="Please Select Months"
+                                                        data-parsley-multiple="duration"
+                                                    />
+                                                    <label for="duration24" class="radio-label d-flex align-items-center justify-content-center text-gradient">24 </label>
+                                                </li>
+                                                <li class="m-2">
+                                                    <input
+                                                        type="radio"
+                                                        id="duration36"
+                                                        name="loan_duration_months"
+                                                        value="36"
+                                                        class="radiobtn error-at-bottom"
+                                                        data-parsley-required="true"
+                                                        data-parsley-required-message="Please Select Months"
+                                                        data-parsley-multiple="duration"
+                                                    />
+                                                    <label for="duration36" class="radio-label d-flex align-items-center justify-content-center text-gradient">36 </label>
+                                                </li>
+                                            </ul>
+                                            <div class="error-box w-100"></div>
+                                        </div>
+                                        <div class="text-center form-group mb-0 mt-3">
+                                            <label class="text-left mb-2 h5 font-weight-bold f-25 w-100"> Email Address</label>
+                                            <div class="form-group text-center">
+                                                <input
+                                                    type="email"
+                                                    class="form-control email"
+                                                    name="email"
+                                                    id="email"
+                                                    placeholder="exp@example.com"
+                                                    data-parsley-required="true"
+                                                    data-parsley-required-message="Please Enter Valid Email Address"
+                                                    data-parsley-type="email"
+                                                    required=""
+                                                />
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <button type="submit" class="btn btn-quote my-4 py-2 px-5">Get My Quote <i class="fas fa-hand-point-right text-white" aria-hidden="true"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="formp">
+                            <p>
+                                Minimum Loan Term is 3 months. Maximum Loan Term is 36 months. Representative Example: £1,000 borrowed for 18 months. Total amount repayable is: £1564.59. Interest amounts to £564.59, annual interest rate of 59.97% Representative APR: 79.5% (variable).
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 heroclm txtcolum">
+                        <div class="herotextbox">
+                            <h1>Borrow up to £5000</h1>
+                            <h3>Get an instant online decision</h3>
+                            <div class="allp">
+                                <p><i class="fas fa-check-circle"></i>We don't charge brokerage fees</p>
+                                <p><i class="fas fa-check-circle"></i>Instant decision with no paperwork</p>
+                                <p><i class="fas fa-check-circle"></i>We could help you if you have bad credit</p>
+                                <p><i class="fas fa-check-circle"></i>Your details are secure</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
+
+        <!-- step section start -->
+
+        <section class="howitworks">
+            <div class="container">
+                <div class="howitworkstittle">
+                    <h1>Get a loan up to £5,000</h1>
+                    <p class="subtittle">We help over 1000 people a day!</p>
+                    <p class="lastp">
+                        We’ve all been in situations where we’ve been short on cash or need money but can’t borrow from our bank. When you need money fast it can be very time consuming applying to the 100’s of lenders out there. We search
+                        over 20 lenders in just a few minutes, saving you time. You can apply for a short term loan between £100 and £5,000, 24 hours a day, 365 days a year.
+                    </p>
+                </div>
+                <div class="row worksrow">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="worksbox img-fluid">
+                            <img src="img/laptop1.png" alt="" />
+                            <h5>Completely Online</h5>
+                            <p class="imgtittle">Simple and secure online process.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="worksbox">
+                            <img src="img/hand.png" alt="" />
+                            <h5>Rocket Fast*</h5>
+                            <p class="imgtittle">Now offering Same Day Funding!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="worksbox">
+                            <img src="img/matchien.png" alt="" />
+                            <h5>Instant Offers</h5>
+                            <p class="imgtittle">Pre-approved offers within seconds</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="worksbox">
+                            <img src="img/worning.png" alt="" />
+                            <h5>No Hidden Fees</h5>
+                            <p class="imgtittle">We never charge fees for applications</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttondiv">
+                    <a href="#get_quote">
+                        <button type="submit" class="btn btn-quote my-4 py-2 px-5">Get My Quote <i class="fas fa-hand-point-right text-white" aria-hidden="true"></i></button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--step section end -->
+
+        <!-- how it work section start -->
+
+        <section class="how_worksec" id="how_it_works">
+            <div class="container">
+                <div class="how_work_tittle">
+                    <h1>How does it work?</h1>
+                    <p>Can I really borrow up to £5000 today?</p>
+                </div>
+                <div class="row how_workrow">
+                    <div class="col-xs-12 col-sm-4 hworkcol">
+                        <div class="workHbox">
+                            <div class="lefticon">
+                                <p class="iconp">1</p>
+                            </div>
+
+                            <img src="img/1.png" alt="" />
+                            <h1 class="work_tittle">Simple online application</h1>
+                            <p class="wrk_description">Apply online for up to £5000 using our short online form. Simply select the amount you want to borrow, the term of the loan, and get started with the process.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 hworkcol">
+                        <div class="workHbox">
+                            <div class="lefticon">
+                                <p class="iconp">2</p>
+                            </div>
+
+                            <img src="img/2.png" alt="" />
+                            <h1 class="work_tittle">Get an instant decision</h1>
+                            <p class="wrk_description">We search our panel of 20+ lenders so you can focus on more important things, saving you time.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 hworkcol">
+                        <div class="workHbox">
+                            <div class="lefticon">
+                                <p class="iconp">3</p>
+                            </div>
+
+                            <img src="img/3.png" alt="" />
+                            <h1 class="work_tittle">Same Day Get Paid*</h1>
+                            <p class="wrk_description">Once your application has been approved, you’ll get the cash you need! It’s that easy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work_button_div">
+                    <a href="#get_quote">
+                        <button type="submit" class="btn btn-quote my-4 py-2 px-5 work_div_btn">Get My Quote <i class="fas fa-hand-point-right text-white" aria-hidden="true"></i></button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- how it work section end -->
+
+        <!-- faq section start -->
+
+        <section class="faq" id="faq_sec_menu">
+            <div class="container">
+                <div class="faqtittle">
+                    <h1>Frequently Asked Questions</h1>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="faqbox">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item faqitem">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            How does SunnyCash.co.uk work? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show divshow" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                SunnyCash.co.uk is a broker, not a lender, and works with an exclusive range of lenders in return for a commission fee. We don’t directly offer loans. We allow customers to access our network of UK short term and installment lenders through our online form. We match customers with lenders in our network.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            How much can I borrow? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse divshow" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                Our panel of lenders can offer you between £100 - £5000.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What different types of loans do your lenders offer? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse divshow" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                There are a variety of loans available for consumers. It’s important to understand the differences between them to see which one best suits your individual needs. Guarantor loans include an
+                                                additional person on the loan, such as a friend or family member, who agree to repay the loan should the borrower miss a payment. Short term loans are small (usually under £1,000),
+                                                no-collateral cash advances that are backed by future income. Personal unsecured loans are loans that are not secured against your assets, meaning they don’t require any form of collateral.
+                                                Instalment loans can range up to several months and payments are spread out over the term of the loan.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            How long does it take to apply for a loan and receive funds? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse divshow" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                The online application takes a few minutes to complete. Simply-loans.co.uk will then run your application through our network of lenders in an attempt to match you with a qualified lender. This
+                                                process takes minutes. If your application is accepted, you will be forwarded to the lender’s completion page so that you can sign for your loan electronically.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            How will I receive my funds? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse divshow" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                Your funds will be transferred electronically into the bank account you have provided in your application.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            What are the eligibility criteria? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse divshow" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                The eligibility criteria varies by lender. There are, however, standard criteria requirements that you will be expected to meet in order to apply. This includes the fact that you must be aged
+                                                18 years or older, live in the UK, have an active bank account into which you can receive direct debits and have a regular source of income.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSeven">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            Why do you require my personal information? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse divshow" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                We require your personal information in order to present your application to our lenders so they can assist you by providing you a loan. Please refer to our Privacy Policy for more details
+                                                about how we use your personal information.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEight">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                            Will you check my credit score? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEight" class="accordion-collapse collapse divshow" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                SunnyCash.co.uk does not run any credit checks, however some lenders in our panel may do so as part of the application process, please ensure you read the terms provided by the lender before proceeding.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingNine">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                            What is your Representative APR? <i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseNine" class="accordion-collapse collapse divshow" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                Our Representative APR is 79.5%% (variable). A Representative APR takes into account all charges associated with the loan, in addition to the interest rate.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTen">
+                                        <button class="accordion collapsed accorbtn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                            What should I do if I have problems repaying?<i class="fas fa-plus-circle plusicon"></i>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTen" class="accordion-collapse collapse divshow" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p class="accor_body">
+                                                If you have any issues repaying your loan, please contact your lender directly. They will be able to discuss repayment options with you. If you have more serious concerns about managing your
+                                                money, you may contact Money Helper <a href="https://www.moneyhelper.org.uk/en">(www.moneyhelper.org.uk)</a> . Money Helper offers free advice to those who need to manage their money more effectively.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq section end -->
+
+        <!-- footer start -->
+
+        <section class="footer">
+            <div class="container">
+                <div class="row footerrow">
+                    <div class="col-xs-12">
+                        <div class="footer_box">
+                            <div class="linkdiv">
+                                <a href="https://cp-inst48-client.phonexa.uk/docs/public/get?id=4&r[site_url]=Simply-loans.co.uk">Terms & Conditions</a>
+                                <a href="https://cp-inst48-client.phonexa.uk/docs/public/get?id=2&r[site_url]=Simply-loans.co.uk"> Privacy Policy</a>
+                                <a href="Cookies">Cookies Policy</a>
+                                <a href="broking_policy"> Broking Policy</a>
+                                <a href="complaints_policy">Complaints Policy</a>
+                                <a href="unsubscribe" class="lasta">Unsubscribe</a>
+                            </div>
+
+                            <div class="footerlogo">
+                                <img src="img/logof1.png" alt="" />
+                            </div>
+
+                            <div class="footertextdiv">
+                                <p class="firstdescip">
+                                    <strong> SunnyCash.co.uk</strong> is not a lender and does not make credit decisions. SunnyCash.co.uk matches customer applications with lenders in our network based on the information provided, in
+                                    exchange for a commission paid by the lender for advertising services provided. There is no guarantee that you will be accepted by a lender or that you will be offered terms suitable for your financial
+                                    needs. Not all lenders will be able to provide amounts up to £5000. The time required to process and transfer the loan varies by the lender. This website does not directly endorse any particular product
+                                    or service. Any information on this site should serve as opinion only. As a condition of extending credit, some lenders you may be matched with may run a credit check from a credit reference agency. Late
+                                    or missed payments may be subject to increased fees and/or interest rates.
+                                </p>
+                                <p class="seconddescip">
+                                    <strong> SunnyCash.co.uk</strong> is a registered trading name of Monetise Media Limited, which is an Introducer Appointed Representative of T Dot UK Limited, registered under FRN 767119. T Dot UK
+                                    Limited are authorised and regulated by the Financial Conduct Authority and is entered on the Financial Services Register under reference number: 688026. Monetise Media Limited is registered in England
+                                    and Wales (Company number 07875484), with a registered office located at Unit J Williams Yard, Derby Road, Melbourne, Derby, DE73 8JR. Licensed by the Information Commissioner’s Office under registration
+                                    number: ZA036277
+                                </p>
+                            </div>
+
+                            <div class="footernotice">
+                                <p>*Not all lenders will be able to provide amounts up to £5000.</p>
+                                <p>*Not all lenders pay out the same day.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer end -->
+
+        <!-- js link -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="js/slide.js"></script>
+        <script src="js/rangeslide.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js.map"></script>
+    </body>
+</html>

@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background: #f2f5f7;
+}
+/*top bar start*/
+.textbox p {
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.bar {
+    width: 99%;
+}
+
+section.topbar {
+    background: #25A18E;
+}
+
+.container-fluid.tobbardiv {
+    margin: 0;
+    padding: 0;
+}
+
+.row.topbarrow {
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+.col-xs-12.textcol {
+    margin: 0;
+    padding: 0;
+}
+.textbox {
+    display: flex;
+}
+p.startp a {
+    color: #002bff !important;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+p.startp a:hover {
+    text-decoration: underline !important;
+    color: #dddddd !important;
+}
+/*top bar end*/
+/*nav bar start*/
+button.btn.applybutton {
+    outline: none;
+    border: none;
+    color: white;
+    background-image: linear-gradient(270deg,#7ae582 0,#25a18e 50%,#00a5cf 100%,#004e64 0)!important;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 9px 29px;
+    border-radius: 50px;
+    margin: 0px 6px;
+}
+
+button.btn.applybutton:hover {
+    background-image: linear-gradient(90deg,#7ae582 0,#25a18e 50%,#00a5cf 100%,#004e64 0)!important;
+}
+li.nav-item.liitem a {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 16px;
+}
+img.logo {
+    width: 195px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.navdiv {
+    padding: 13px 0px;
+}
+button.btn.applybutton.lookupbtn {
+    margin-right: 0px;
+}
+
+/*nav bar end*/
+
+/*hero section start*/
+
+section.herosection {
+    background-image: url('../img/waves1.png'),url('../img/man1.png'),url('../img/green1.jpg');
+    height: 615px;
+    background-size: contain,29%,cover;
+    background-position: bottom,80% 95%,50%;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-color: #7ab853;
+    padding-top: 30px;
+}
+/*form area start*/
+.formbox {
+    width: 75%;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.row.herorow {
+    padding-top: 0px;
+}
+.formdiv h1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(0, 165, 207);
+    margin-bottom: 0.75rem;
+}
+.formdiv {
+    padding: 1.25rem;
+}
+.tittleandoutput h2 {
+    font-size: 18px;
+    font-weight: 700;
+    width: 50%;
+    color: rgb(104, 104, 104);
+}
+.tittleandoutput {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.txt-blue {
+    color: #00a5cf;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+}
+.f-25 {
+    font-size: 18px !important;
+    color: rgb(104, 104, 104);
+}
+.radio-label {
+    box-shadow: 0 0 12px 0 rgba(0,0,0,.12);
+    background: #fff;
+    color: #B1B8D3;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px;
+    border: none;
+    font-size: 23px;
+    font-weight: 600;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.radiobtn {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+.radio-label:hover {
+    background-image: linear-gradient(270deg,#7ae582 0,#25a18e 50%,#00a5cf 100%,#004e64 0)!important;
+    color: white;
+}
+input:checked ~ .radio-label {
+    background-image: linear-gradient(90deg,#7ae582 0,#25a18e 50%,#00a5cf 100%,#004e64 0)!important;
+    color: white;
+}
+ul.list-unstyled.d-flex.align-items-center.row.m-0.justify-content-center {
+    display: flex !important;
+}
+
+li.m-2 {
+    width: 11%;
+    padding: 0;
+}
+.m-2 {
+    margin: 10px !important;
+}
+label.text-left.mb-2.h5.font-weight-bold.f-25.w-100 {
+    text-align: left;
+}
+button.btn.btn-quote.my-4.py-2.px-5 {
+    background-image: linear-gradient(270deg,#7ae582 0,#25a18e 50%,#00a5cf 100%,#004e64 0)!important;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+button.btn.btn-quote.my-4.py-2.px-5:hover {
+    background-image: linear-gradient(90deg,#7ae582 0,#25a18e 50%,#00a5cf 100%,#004e64 0)!important;
+}
+.formp p {
+    color: #212529;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+/*form area end*/
+/*text area start*/
+.herotextbox h1 {
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+}
+.herotextbox h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.allp i {
+    color: white;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.allp p {
+    color: white;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 2px;
+}
+.mobileimg.img-fluid img {
+    width: 31%;
+    float: right;
+    margin-top: -88px;
+}
+
+/*text area end*/
+
+/*hero section end*/
+
+/*step start*/
+section.howitworks {
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+.howitworkstittle h1 {
+    color: #3d1308;
+    text-align: center;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+p.subtittle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    color: #00a5cf;
+}
+
+p.lastp {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(33, 37, 41);
+    padding-bottom: 50px;
+}
+.worksbox img {
+    width: 35%;
+}
+
+.worksbox h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #3d1308;
+    padding: 0;
+    margin: 0;
+    padding-top: 14px;
+}
+
+.worksbox {
+    text-align: center;
+}
+
+p.imgtittle {
+    font-size: 15px;
+    font-weight: 300;
+}
+.row.worksrow {
+    align-items: center;
+}
+.buttondiv {
+    text-align: center;
+}
+
+/*step section end*/
+
+/*how it works start*/
+
+section.how_worksec {
+    background: #25A18E;
+}
+
+.how_work_tittle h1 {
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.how_work_tittle p {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-weight: 300;
+}
+
+.how_work_tittle {
+    padding-top: 58px;
+    padding-bottom: 40px;
+}
+.workHbox img {
+    width: 32%;
+    padding-bottom: 16px;
+}
+
+.workHbox {
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 17px;
+    height: 378px;
+}
+
+.workHbox h1 {
+    font-size: 22px;
+    width: 100%;
+    font-weight: 700;
+}
+p.wrk_description {
+    padding: 0px 35px;
+    padding-bottom: 10px;
+}
+p.iconp {
+    width: 42px;
+    height: 42px;
+    background: #25A18E;
+    border-radius: 5px 0px 20px 0px;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+.work_button_div {
+    text-align: center;
+    padding: 30px 0px;
+}
+button.btn.btn-quote.my-4.py-2.px-5.work_div_btn {
+    border: 2px solid white;
+}
+
+/*how it works end*/
+
+/*faq section start*/
+button.accordion.accorbtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #f8f9fa;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 26px 35px;
+}
+
+
+.accordion-item.faqitem {
+    border-radius: 4px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.accordion-body {
+    padding: 18px 35px;
+}
+i.fas.fa-plus-circle.plusicon {
+    color: #40bc47;
+}
+
+p.accor_body {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+.accordion-item {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.divshow {
+    transition: all 0.6s ease;
+}
+p.accor_body a {
+    text-decoration: none;
+}
+.faqtittle {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.faqtittle h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #3d1308;
+}
+section.faq {
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid #e7e7e7;
+}
+
+/*faq section end*/
+/*footer section  start*/
+
+.linkdiv {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.linkdiv a {
+    text-decoration: none;
+    border-right: 1px solid black;
+    padding: 0px 9px;
+    font-size: 16px;
+    color: #757483;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.linkdiv a:hover {
+    color: black;
+}
+a.lasta {
+    border: none;
+}
+section.footer {
+    background: white;
+}
+
+.footerlogo {
+    text-align: center;
+}
+
+.footerlogo img {
+    width: 8%;
+    padding: 0px 8px;
+}
+p.firstdescip {
+    font-size: 15px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+p.seconddescip {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 8px;
+}
+.footernotice {
+    text-align: center;
+}
+
+.footernotice p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/*footer section end*/
+
+/*=====================================*/
+
+/*apply page start*/
+
+/*logo section start*/
+section.logo_sec {
+    background: white;
+    box-shadow: 0px 0px 2px #9f2042;
+}
+
+.logo_sec_box img {
+    width: 16%;
+    padding: 8px 0px;
+}
+.text_sec_box {
+    text-align: center;
+}
+
+.text_sec_box h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #00A5CF;
+    font-family: "Montserrat" !important;
+}
+
+.text_sec_box h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.text_sec_box h3 {
+    color: #9f2042;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Montserrat" !important;
+}
+.text_sec_box h3 span {
+    color: #00A5CF;
+    font-weight: 600;
+}
+section.text_sec {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #9f204212;
+}
+
+/*logo section end*/
+
+/*apply page end*/
+
+/*==================================*/
+
+/*===============terms and condition page */
+.logo_sec_box.tandconpage {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section.logo_sec.conditionlogosec {
+    background: #f2f5f7;
+    border-bottom: 1px solid #0404041f;
+}
+section.condition {
+    background: white;
+}
+.conditionbox h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-top: 25px;
+    font-size: 40px;
+}
+
+.conditionbox h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.firstp p {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+.noticelink {
+    font-size: 15px;
+}
+.about_div {
+    padding-top: 33px;
+}
+.Confidential p a {
+    text-decoration: none;
+}
+
+/*==============terms and condition page end*/
+
+/*=====================================privacy and policy page start*/
+
+h1.privacyh {
+    text-align: center;
+}
+section#notice {
+    padding-bottom: 30px;
+}
+
+/*=====================================privacy and policy page end*/
